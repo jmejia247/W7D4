@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $light-gray;
+}
+
+.main-nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul > li {
+    margin: 2px;
+}
+
+a:hover {
+    color: $light-gray;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#banana {
+    text-decoration: underline;
+}
+
+// a {
+//     color: inherit;
+// }

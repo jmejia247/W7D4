@@ -37,9 +37,11 @@
     }
 
     > li:last-of-type {
+      position: relative;
       font-size: 11px;
       background-color: $lightest-gray;
     }
+    
   }
   
   i {
@@ -49,5 +51,5 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  color: $lightest-gray;
+  color: $light-gray;
 }

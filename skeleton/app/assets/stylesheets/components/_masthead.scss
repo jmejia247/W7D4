@@ -1,22 +1,17 @@
 .masthead {
-	display: block;
+	display: flex;
 	position: relative;
 	align-items: center;
-	border-top: 1px solid $light-gray;
+	flex-direction: column;
 	border-bottom: 2px solid black;
-	background-color: white;
 }
 
 .language-nav {
-	display: flex;
-	position: absolute;
-	background: white;
+	left: calc(50% - (177.78px/2));
 	border: 1px solid $light-gray;
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	height: 11px;
-	align-items: center;
 
 	a {
 		margin: 0 5px;
@@ -37,7 +32,6 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
-	text-align: center;
 }
 
 .masthead-links {
@@ -46,10 +40,10 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	text-align: center;
 
 	li {
 		margin-left: 10px;
+		border-right: 1px solid $light-gray;
 	}
 
 	button {
@@ -77,5 +71,9 @@
 
 	strong {
 		color: green;
+	}
+
+	li:last-child {
+		border: none;
 	}
 }
